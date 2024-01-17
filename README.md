@@ -13,7 +13,7 @@ Fernanda Bravo Cornejo, bravoc@utem.cl;
 Diego Santibanez Oyarce, dsantibanezo@utem.cl;
 Camilo Cerda Sarabia, ccerdas@utem.cl;
 Hugo Osses Prado, hosses@utem.cl;
-Esteban Gomez Teran, egomez@utem.cl;
+Esteban Gomez Teran, egomez@utem.cl
 
 Raul Caulier-Cisterna, rcaulier@utem.cl;
 Jorge Vergara-Quezada, jorgever@utem.cl;
