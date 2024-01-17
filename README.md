@@ -15,7 +15,7 @@ Camilo Cerda Sarabia, ccerdas@utem.cl;
 Hugo Osses Prado, hosses@utem.cl;
 Esteban Gomez Teran, egomez@utem.cl;
 
-Raul Caulier-Cisterna, rcaulier@utem.cl:
+Raul Caulier-Cisterna, rcaulier@utem.cl;
 Jorge Vergara-Quezada, jorgever@utem.cl;
 Ana Moya-Beltran, amoya@utem.cl
 
@@ -23,6 +23,6 @@ Ana Moya-Beltran, amoya@utem.cl
 This work was presented in the '1eras Jornadas de Ciencia de Datos y Salud pública' organized by Escuela de Salud pública, Universidad de Chile. https://saludpublica.uchile.cl/extension/programas/1ras-jornadas-de-ciencia-de-datos-y-salud-publica/presentacion
 
 Acknowledgement:
-Departamento de Informatica y Computacion, UTEM
-Escuela de Informatica, UTEM
-Laboratorio de Investigacion Aplicada, Departamento de Informatica y Computacion, UTEM
+Departamento de Informatica y Computacion, UTEM;
+Escuela de Informatica, UTEM;
+Laboratorio de Investigacion Aplicada, Departamento de Informatica y Computacion, UTEM.
