@@ -9,11 +9,11 @@ This is the first version of the project and was fully developed by students and
 
 Authors:
 
-Fernanda Bravo Cornejo, bravoc@utem.cl
-Diego Santibanez Oyarce, dsantibanezo@utem.cl
-Camilo Cerda Sarabia, ccerdas@utem.c
-Hugo Osses Prado, hosses@utem.cl
-Esteban Gomez Teran, egomez@utem.cl
+Fernanda Bravo Cornejo, bravoc@utem.cl;
+Diego Santibanez Oyarce, dsantibanezo@utem.cl;
+Camilo Cerda Sarabia, ccerdas@utem.cl;
+Hugo Osses Prado, hosses@utem.cl;
+Esteban Gomez Teran, egomez@utem.cl;
 
-Jorge Vergara-Quezada, jorgever@utem.cl
+Jorge Vergara-Quezada, jorgever@utem.cl;
 Ana Moya-Beltran, amoya@utem.cl
