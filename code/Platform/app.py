@@ -13,7 +13,6 @@ import geopandas as gpd
 import plotly.express as px
 import streamlit as st
 from funcionesYDatos import *
-import ngrok
 
 
 
@@ -115,7 +114,7 @@ elif seleccion_principal == "Geo-localization":
             st.dataframe(dfConcat[0], use_container_width=True)
         with right_coll:
             st.markdown('### Bacteria frequency per country')
-            tempdfff=pd.read_csv('datosPaisesFrecuencia.csv')
+            tempdfff=pd.read_csv('GeographyData.csv')
             st.dataframe(tempdfff, use_container_width=True)
     elif seleccion_secundaria == "Bacteria: Abiotrophia":
         st.markdown('### World map')

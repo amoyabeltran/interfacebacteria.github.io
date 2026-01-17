@@ -1,0 +1,43 @@
+name: infobacterias
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python=3.11
+
+  # Procesamiento de Datos
+  - pandas>=2.0
+  - numpy=1.26.4
+  - openpyxl
+
+  # Visualización
+  - plotly>=5.18
+  - matplotlib
+  - seaborn
+
+  # Geoespacial
+  - geopandas>=0.14
+  - shapely
+  - pyproj
+  - fiona
+
+  # Bioinformática
+  - biopython>=1.81
+
+  # Utilidades
+  - requests
+  - beautifulsoup4
+  - python-dotenv
+  - tqdm
+  - pyyaml
+
+  # Jupyter (desarrollo)
+  - jupyter
+  - ipykernel
+
+  - pip
+  - pip:
+      # Dashboard Web
+      - streamlit>=1.28.0
+      - dash-bio>=1.0.0

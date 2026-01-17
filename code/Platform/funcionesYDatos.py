@@ -234,7 +234,7 @@ def graphTaxonomy():
                             'Taxonomy:order', 'Taxonomy:family', 'Taxonomy:genus', 'Taxonomy:species'])
 
     fig.update_layout(title_text="Taxonomy distribution", 
-                    titlefont={'size': 24, 'family':'Serif'},
+                    title_font={'size': 24, 'family': 'Serif'},
                     width=1000, 
                     height=800,
                     )
@@ -261,11 +261,11 @@ def graficoHost():
     return fig
 
 def treemapgraph():
-    df = pd.read_csv('Animales.csv')
-    df1 = pd.read_csv('Humanos.csv')
-    df2 = pd.read_csv('Ambiental.csv')
-    df3 = pd.read_csv('Biologico.csv')
-    df4 = pd.read_csv('Vegetacion.csv')
+    df = pd.read_csv('Animals.csv')
+    df1 = pd.read_csv('Human.csv')
+    df2 = pd.read_csv('Environmental.csv')
+    df3 = pd.read_csv('Biology.csv')
+    df4 = pd.read_csv('Vegetation.csv')
     df['host'] = 'animals'
     df1['host'] = 'human'
     df2['host'] = 'ambiental'
@@ -292,8 +292,8 @@ def treemapgraph():
 def graficoVarGen():
 
     df = pd.read_csv('MAtrix_identity_abio.csv')
-    df2 = pd.read_csv('Animales.csv')
-    df3 = pd.read_csv('Humanos.csv')
+    df2 = pd.read_csv('Animals.csv')
+    df3 = pd.read_csv('Human.csv')
     #new_df.to_csv('nuevo_dataframe.csv', index=False)
 
     df3['Host'] = 'human'
@@ -315,8 +315,8 @@ def graficoVarGen():
 
     df_resultado = pd.merge(matriz_resultante, concatenated_df[['Accession', 'Host']], on='Accession', how='left')
     # df = pd.read_csv('MAtrix_identity_abio.csv')
-    # df2 = pd.read_csv('Animales.csv')
-    # df3 = pd.read_csv('Humanos.csv')
+    # df2 = pd.read_csv('Animals.csv')
+    # df3 = pd.read_csv('Human.csv')
 
     #df = df.fillna(100)
 
