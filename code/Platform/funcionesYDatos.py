@@ -261,7 +261,7 @@ def graficoHost():
     return fig
 
 def treemapgraph():
-    df = pd.read_csv('Animals.csv')
+    df = pd.read_csv("Animals.csv")
     df1 = pd.read_csv('Human.csv')
     df2 = pd.read_csv('Environmental.csv')
     df3 = pd.read_csv('Biology.csv')
@@ -292,8 +292,8 @@ def treemapgraph():
 def graficoVarGen():
 
     df = pd.read_csv('MAtrix_identity_abio.csv')
-    df2 = pd.read_csv('Animals.csv')
-    df3 = pd.read_csv('Human.csv')
+    df2 = pd.read_csv("Animals.csv")
+    df3 = pd.read_csv("Human.csv")
     #new_df.to_csv('nuevo_dataframe.csv', index=False)
 
     df3['Host'] = 'human'
@@ -315,7 +315,7 @@ def graficoVarGen():
 
     df_resultado = pd.merge(matriz_resultante, concatenated_df[['Accession', 'Host']], on='Accession', how='left')
     # df = pd.read_csv('MAtrix_identity_abio.csv')
-    # df2 = pd.read_csv('Animals.csv')
+    # df2 = pd.read_csv('Animals.csv)
     # df3 = pd.read_csv('Human.csv')
 
     #df = df.fillna(100)
