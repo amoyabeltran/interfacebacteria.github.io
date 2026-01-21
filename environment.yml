@@ -1,3 +1,12 @@
+# Interface Bacteria Dashboard Environment
+# 
+# Installation:
+#   conda env create -f environment.yml
+#   conda activate infobacterias
+#
+# Running the dashboard:
+#   streamlit run app.py
+
 name: infobacterias
 channels:
   - conda-forge

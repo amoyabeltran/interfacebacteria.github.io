@@ -1,0 +1,39 @@
+# Interface Bacteria Dashboard - Dependencies
+# Generated from environment.yml for pip users
+
+# Core
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0
+numpy==1.26.4
+openpyxl
+
+# Visualization
+plotly>=5.18
+matplotlib
+seaborn
+dash-bio>=1.0.0
+
+# Geospatial
+geopandas>=0.14
+shapely
+pyproj
+fiona
+
+# Bioinformatics
+biopython>=1.81
+
+# Utilities
+requests
+beautifulsoup4
+python-dotenv
+tqdm
+pyyaml
+
+# Image Export
+kaleido
+
+# Development (optional)
+jupyter
+ipykernel

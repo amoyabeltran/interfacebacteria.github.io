@@ -1,0 +1,52 @@
+[project]
+name = "interface-bacteria"
+version = "1.0.0"
+description = "Exploration and Visualization Interface for Public Database Information Regarding Pathogenic Bacteria in the Pulmonary Environment"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Ana Moya-Beltran", email = "amoya@utem.cl"},
+    {name = "Fernanda Bravo Cornejo", email = "bravoc@utem.cl"},
+    {name = "Diego Santibanez Oyarce", email = "dsantibanezo@utem.cl"},
+    {name = "Camilo Cerda Sarabia", email = "ccerdas@utem.cl"},
+    {name = "Hugo Osses Prado", email = "hosses@utem.cl"},
+    {name = "Esteban Gomez Teran", email = "egomez@utem.cl"},
+    {name = "Raul Caulier-Cisterna", email = "rcaulier@utem.cl"},
+    {name = "Jorge Vergara-Quezada", email = "jorgever@utem.cl"},
+]
+keywords = ["bacteria", "bioinformatics", "visualization", "streamlit", "dashboard", "pathogen", "pulmonary"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Programming Language :: Python :: 3.11",
+    "Framework :: Streamlit",
+]
+
+dependencies = [
+    "streamlit>=1.28.0",
+    "pandas>=2.0",
+    "numpy>=1.26.4",
+    "plotly>=5.18",
+    "geopandas>=0.14",
+    "biopython>=1.81",
+    "dash-bio>=1.0.0",
+    "openpyxl",
+    "kaleido",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter",
+    "ipykernel",
+    "pytest",
+]
+
+[project.urls]
+Homepage = "https://informatica.utem.cl/investigacion/interfacebacteria/"
+Repository = "https://github.com/interfacebacteria/interfacebacteria.github.io"
+
+[tool.setuptools.packages.find]
+where = ["src"]
