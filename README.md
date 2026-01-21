@@ -29,7 +29,7 @@ This approach not only contributes to advancing scientific knowledge but also ho
 
 ```bash
 # Clone the repository
-git clone https://github.com/interfacebacteria/interfacebacteria.github.io.git
+git clone https://github.com/amoyabeltran/interfacebacteria.github.io.git
 cd interfacebacteria.github.io
 
 # Create and activate environment
