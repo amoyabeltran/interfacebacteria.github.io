@@ -129,7 +129,7 @@ def graphTaxonomy():
 
 def graficoHost():
     """Generates pie chart of host distribution."""
-    df_graph = pd.read_csv('df_graph_host.csv')
+    df_graph = pd.read_csv('data/raw/host_data.csv')
     host_counts = df_graph['Host'].value_counts()
     
     colores_personalizados = ["#a17fa9", "#35b779", '#9fa1c2', "#94bbc6", "#b5de2b"]
@@ -144,11 +144,11 @@ def graficoHost():
 def treemapgraph():
     """Generates treemap chart of hosts by bacteria."""
     try:
-        df_animals = pd.read_csv("Animals.csv")
-        df_human = pd.read_csv('Human.csv')
-        df_env = pd.read_csv('Environmental.csv')
-        df_bio = pd.read_csv('Biology.csv')
-        df_veg = pd.read_csv('Vegetation.csv')
+        df_animals = pd.read_csv("data/processed/animals.csv")
+        df_human = pd.read_csv('data/processed/human.csv')
+        df_env = pd.read_csv('data/processed/environmental.csv')
+        df_bio = pd.read_csv('data/processed/biology.csv')
+        df_veg = pd.read_csv('data/processed/vegetation.csv')
         
         df_animals['host'] = 'animals'
         df_human['host'] = 'human'
